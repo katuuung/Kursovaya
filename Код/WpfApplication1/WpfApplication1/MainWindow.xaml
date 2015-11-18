@@ -1,0 +1,20 @@
+﻿<Window x:Class="WpfApplication1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="339.474" Width="585.526">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="107*"/>
+            <ColumnDefinition Width="74*"/>
+        </Grid.ColumnDefinitions>
+        <Button Background="Blue" Foreground="Aquamarine" Content="ОК" HorizontalAlignment="Left" Margin="20,10,0,0" VerticalAlignment="Top" Width="126" Click="Button_Click" Height="106" Grid.Column="1"/>
+        <DockPanel>
+            <Button DockPanel.Dock="Top" Background="Brown">TopButton</Button>
+            <Button DockPanel.Dock="Bottom" Background="Gray">BottomButton</Button>
+            <Button DockPanel.Dock="Left" Background="White">LeftButton</Button>
+            <Button DockPanel.Dock="Right" Background="Red">RightButton</Button>
+            <Button Background="Blue">Свободное пространство</Button>
+        </DockPanel>
+    </Grid>
+
+</Window>
