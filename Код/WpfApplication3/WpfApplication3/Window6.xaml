@@ -1,0 +1,30 @@
+﻿<Controls:MetroWindow
+           x:Class="WpfApplication3.Window6"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Window6" Height="350" Width="525">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Margin="150,46,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="187"><Run Language="ru-ru" Text="Тренировки"/></TextBlock>
+        <Button Content="Готово" HorizontalAlignment="Left" Margin="366,46,0,0" VerticalAlignment="Top" Width="82" Height="34"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="40,46,0,0" VerticalAlignment="Top" Width="82" Height="34" Click="Button_Click"/>
+        
+        <TextBlock HorizontalAlignment="Left" Margin="277,147,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="230"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="277,177,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="230"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="277,267,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="230"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="277,237,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="230"/>
+
+        <TextBlock HorizontalAlignment="Left" Margin="277,207,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" Height="25" Width="230"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="105,147,0,0" VerticalAlignment="Top" Height="15" Width="17"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="105,267,0,0" VerticalAlignment="Top" Height="15" Width="17"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="105,237,0,0" VerticalAlignment="Top" Height="15" Width="17"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="105,207,0,0" VerticalAlignment="Top" Height="15" Width="17"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="105,177,0,0" VerticalAlignment="Top" Height="15" Width="17"/>
+        <TextBlock HorizontalAlignment="Left" Margin="316,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="181"><Run Language="ru-ru" Text="Список тренировок"/></TextBlock>
+        <TextBlock HorizontalAlignment="Left" Margin="40,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="39" Width="181"><Run Language="ru-ru" Text="Статус выполнения тренировки"/></TextBlock>
+
+    </Grid>
+</Controls:MetroWindow>
