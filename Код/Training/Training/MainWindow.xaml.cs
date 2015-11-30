@@ -32,5 +32,12 @@ namespace Training
             crt.Show();
             this.Close();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ChooseTraining cht = new ChooseTraining();
+            cht.Show();
+            this.Close();
+        }
     }
 }

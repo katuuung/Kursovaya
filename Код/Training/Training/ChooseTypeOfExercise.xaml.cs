@@ -16,35 +16,42 @@ using MahApps.Metro.Controls;
 namespace Training
 {
     /// <summary>
-    /// Логика взаимодействия для CreateNewTraining.xaml
+    /// Логика взаимодействия для ChooseTypeOfExcercise.xaml
     /// </summary>
-    public partial class CreateNewTraining : MetroWindow
+    public partial class ChooseTypeOfExercise : MetroWindow
     {
-        public CreateNewTraining()
+        public ChooseTypeOfExercise()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            ChooseTypeOfExercise chtoe = new ChooseTypeOfExercise();
-            chtoe.Show();
+            WeightExercises we = new WeightExercises();
+            we.Show();
             this.Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            MainWindow mw = new MainWindow();
-            mw.Show();
+            FreeExercises fe = new FreeExercises();
+            fe.Show();
             this.Close();
-       
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-
+            CardioExercises ce = new CardioExercises();
+            ce.Show();
+            this.Close();
         }
 
-       
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            CreateNewTraining cnt = new CreateNewTraining();
+            cnt.Show();
+            this.Close();
+        }
+
     }
 }

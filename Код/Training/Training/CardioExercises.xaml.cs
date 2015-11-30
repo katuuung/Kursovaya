@@ -16,17 +16,19 @@ using MahApps.Metro.Controls;
 namespace Training
 {
     /// <summary>
-    /// Логика взаимодействия для ChooseTypeOfExcercise.xaml
+    /// Логика взаимодействия для CardioExercises.xaml
     /// </summary>
-    public partial class ChooseTypeOfExcercise : MetroWindow
+    public partial class CardioExercises : MetroWindow
     {
-        public ChooseTypeOfExcercise()
+        public CardioExercises()
         {
             InitializeComponent();
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            ChooseTypeOfExercise cte = new ChooseTypeOfExercise();
+            cte.Show();
             this.Close();
         }
     }
